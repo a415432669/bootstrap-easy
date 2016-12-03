@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>课时7-侧边栏的制作</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mybs.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--
+        	作者：415432669@qq.com
+        	时间：2016-07-20
+        	描述：bootstrap导航栏的制作
+        -->
+		<div class="nav navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" >
+						<img src="img/logo1.png"/>
+					</a>
+				</div>
+	   			<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">首页</a></li>
+						<li><a href="#">直播</a></li>
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">网站开发<span class="caret"></span></a>
+							<ul class="bs-menu dropdown-menu">
+							<!--
+                            	作者：415432669@qq.com
+                            	时间：2016-07-20
+                            	描述：-->
+                            <li class="dropdown-submenu">
+		   						<a href="#">bootstrap实战开发</a>
+		   						<ul class="bs-submenu dropdown-menu">
+		   							<li><a href="#">登录页制作</a></li>
+		   							<li><a href="#">导航栏制作</a></li>
+		   							<li><a href="#">字体图标使用</a></li>
+		   						</ul>
+		   					</li>
+							<li><a href="">WebApp开发</a></li>
+							<li><a href="">Html5游戏开发</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+					<div class="navbar-form navbar-right">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="输入关键字" name="" id="" value="" />
+							<div class="input-group-btn">
+							<button class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+        <div style="height: 70px;"></div>
+		<div class="container">
+		<!--
+        	作者：415432669@qq.com
+        	时间：2016-07-20
+        	描述：bootstrap列表页制作与列表页使用
+        -->
+        <div class="row">
+        	<div class="col-md-8">
+        		<div class="list-group">
+        			<div class="list-group-item" style="border: 0;">
+        				<a href="" style="color: #0F0F0F;"><h4>Web App 和 Native App,哪个是趋势?</h4></a>
+        				<p>
+        					<small>发布时间：2016-07-12</small>
+        					<small class="pull-right">点击量：<span class="badge">10</span></small>
+        				</p>
+        				<p>自Iphone和Android这两个牛逼的手机操作系统发布以来，在互联网界从此就多了一个新的名词-Web App(意为基于WEB形式的应用程序)。业界关于Web App与Native App的争论已有一段时间，而Hybrid混合App则受到推荐，随着时间的推移，我们相信Web App也会有一定的市场</p>
+        				<p><span class="badge">webapp</span>&nbsp;<span class="badge">操作系统</span>&nbsp;<span class="badge">Native app</span></p>
+        				<div style="border-bottom: 1px dashed #ccc;"></div>
+        			</div>
+        			
+        			
+        		</div>
+        		<div class="text-center">
+        			<ul class="pagination">
+        				<li><a href="">&laquo;</a></li>
+        				<li><a href="">1</a></li>
+        				<li><a href="">2</a></li>
+        				<li><a href="">3</a></li>
+        				<li><a href="">4</a></li>
+        				<li><a href="">5</a></li>
+        				<li><a href="">&raquo;</a></li>
+        			</ul>
+        		</div>
+        	</div>
+        	<!--
+        	作者：415432669@qq.com
+        	时间：2016-07-20
+        	描述：bootstrap侧边栏的制作
+        -->
+        	<div class="col-md-4">
+        		<div class="panel panel-default">
+        			<div class="panel-heading">
+        				<strong>热点信息</strong><small class="pull-right"><a href="" class="text-muted">更多</a></small>
+        			</div>
+        			<div class="panel-body">
+        				<h4><strong class="panel-title">职教“供给侧”改革</strong></h4>
+        				<p>邢帅教育联合创始人郭洪仓称,在对全国市场进行深入调研后,邢帅教育计划今年在全国建1000家分校服务5000万人,3年后达到3000家左右分校服务3亿人群。</p>
+        			</div>
+        		</div>
+        		<div class="panel panel-default">
+        			<div class="panel-heading">
+        				<strong>热点信息</strong><small class="pull-right"><a href="" class="text-muted">更多</a></small>
+        			</div>
+        			<ul class="list-group">
+        				<li class="list-group-item" style="border: 0;">
+        					<a class="text-muted" href="">直播火:“教育+直播”会更火</a>
+        				</li>
+        				<li class="list-group-item" style="border: 0;">
+        					<a class="text-muted" href="">直播火:“教育+直播”会更火</a>
+        				</li>
+        				<li class="list-group-item" style="border: 0;">
+        					<a class="text-muted" href="">直播火:“教育+直播”会更火</a>
+        				</li>
+        			</ul>
+        		</div>
+        		<div class="panel panel-default">
+        			<div class="panel-heading">
+        				<strong>热点信息</strong><small class="pull-right"><a href="" class="text-muted">更多</a></small>
+        			</div>
+        			<ul class="list-group media-list">
+        				<li class="list-group-item">
+        					<div class="media">
+        						<div class="media-left">
+        							<img src="img/hhx.jpg"/>
+        						</div>
+        						<div class="media-body">
+        							<h4 class="media-heading"><strong>邢帅教育亿元扶贫计划</strong></h5>
+        							<p>在对全国市场进行深入调研后,邢帅教育计划今年在全国建1000家分校服务5000万人,3年后达到3000家左右分校服务3亿人群。</p>
+        						</div>
+        					</div>
+        				</li>
+        			</ul>
+        		</div>
+        		<div class="thumbnail">
+        			<img src="img/pic1.jpg"/>
+        		</div>
+        	</div>
+        	
+        		
+        	
+        	
+        </div>
+			
+		</div>
+	</body>
+</html>
